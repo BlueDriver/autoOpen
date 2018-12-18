@@ -1,0 +1,30 @@
+{
+	"name": "autoOpen",
+	"description" : "打开CSDN，自动展开文章内容，告别总是提示登录的烦恼！",
+	"version": "0.1",
+	"manifest_version": 5,
+
+	"browser_action": {
+      "default_popup": "open.html",
+      "default_icon": "icon.png"
+    },
+    "permissions": [
+		"storage",
+		"tabs",
+		"http://*/*",
+		"https://*/*"
+	],
+	"content_scripts": [
+		{
+			"matches": [
+			"http://*/*",
+			"https://*/*"
+			],
+			"js": [
+				"scripts/contentscript.js"
+			],
+			"run_at": "document_idle",
+			"all_frames": true
+		}
+	]
+}
