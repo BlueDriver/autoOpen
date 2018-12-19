@@ -17,8 +17,8 @@
 	"content_scripts": [
 		{
 			"matches": [
-			"http://*/*",
-			"https://*/*"
+			"http://blog.csdn.net/*",
+			"https://blog.csdn.net/*"
 			],
 			"js": [
 				"scripts/contentscript.js"
