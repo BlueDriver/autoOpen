@@ -2,10 +2,10 @@
 
 > 自动展开CSDN博客内容的Chrome插件
 
-#### 场景演示，未安装
+#### 场景演示，未安装时：
 ![gif](https://raw.githubusercontent.com/BlueDriver/autoOpen/master/gif/gif1.gif)
 
-#### 安装后，刷新网页
+#### 安装后，刷新网页：
 ![gif](https://raw.githubusercontent.com/BlueDriver/autoOpen/master/gif/gif2.gif)
 
 #### 本地插件安装方式
